@@ -1,0 +1,156 @@
+/** RESET **/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******* BODY ********/
+/** de aquí en adelante se trabajará el BODY **/
+
+
+/** HEADER **/
+
+/** BARRA DE NAVEGACION (NAV BAR) **/
+.header-index {
+    background-color: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    z-index: 4;
+    top: 0;
+}
+
+.nav-bar {
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 1.5625rem;
+    flex-wrap: wrap;
+}
+
+.nav-bar li{
+    padding-top: 40px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+
+/** MAIN **/
+
+
+/** CAJA 1 **/
+
+.section-principal {
+    width: 100%;
+    height: 700px;
+    background-image: url("../assets/img/fondos/fondo-principal.png");
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.section-principal h1 {
+    text-align: right;
+    padding-top: 300px;
+    padding-right: 100px;
+}
+
+.section-principal h2 {
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+/** CAJA 2 **/
+
+/** fila 1 **/
+.bienestar-cultivo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: darkgreen;
+    text-decoration-line: underline;
+}
+
+/** fila 2 **/
+.card-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    gap: 3.125rem;
+    padding-top: 50px;
+}
+
+.card {
+    width: 150px;
+    height: 400px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card div {
+    width: 100%;
+    height: 200px;
+}
+
+.card div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h3{
+    text-decoration: none;
+    color: darkgreen;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+/** CAJA 3 **/
+.experiencia-biofarm{
+    background-color: rgb(132, 209, 56);
+    width: 50%;
+    height: 300px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 2.5rem;
+}
+
+.experiencia-biofarm h2{
+    text-decoration: underline;
+}
+
+.experiencia-biofarm h3{
+    padding-top: 30px;
+}
+
+.experiencia-biofarm h4{
+    padding-top: 20px;
+}
+
+/** CAJA 4**/
+.producto-estrella{
+    text-decoration: underline;
+    color: darkgreen;
+    text-align: center;
+    padding-top: 50px;
+}
